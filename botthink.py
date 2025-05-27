@@ -83,7 +83,7 @@ async def lihatdata(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 def main():
-    app = Application.builder().token(API_TOKEN).build()
+    app = Application.builder().token('7960193868:AAFGkXMqQheatftT7465kOg3dMcud5jNdBA').build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_command))
