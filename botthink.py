@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 import pandas as pd
 import logging
 
-API_TOKEN = '8013194953:AAHrZkwLTmoG7dAKbhttqEPwAdPe2mS6JCI'  # Ganti dengan token dari BotFather
+API_TOKEN = '7960193868:AAFGkXMqQheatftT7465kOg3dMcud5jNdBA'  # Ganti dengan token dari BotFather
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
